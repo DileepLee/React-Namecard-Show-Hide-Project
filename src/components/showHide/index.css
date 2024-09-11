@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.show-hide-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: #fa7257;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-button {
+    padding: 10px 20px;
+    background-color: #fc63a7;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .toggle-button:hover {
+    background-color: #dd1264;
+  }
+  
+  .names-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  
+  .firstName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #dd1264;
+    background-color: #fddddb;
+    height: 100px;
+    width: 200px;
+    font-weight: 700;
+  }
+  .lastName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #dd1264;
+    background-color: #fddddb;
+    height: 100px;
+    width: 200px;
+    font-weight: 700;
+  }
+  
